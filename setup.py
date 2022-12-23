@@ -8,8 +8,8 @@ with codecs.open(os.path.join(here, "README.md"), encoding="utf-8") as fh:
     long_description = "\n" + fh.read()
 
 VERSION = '0.0.1'
-DESCRIPTION = 'Streaming video data via networks'
-LONG_DESCRIPTION = 'A package that allows to calculate basin entropy.'
+DESCRIPTION = 'Script to calculate basin entropy'
+LONG_DESCRIPTION = 'This algorithm computes the basin entropy of a computed basin of attraction on a regular grid.The function return the basin entropy and the boundary basin entropy. [A. Daza, A. Wagemakers, B. Georgeot, D. Guéry-Odelin and M. A. F. Sanjuán, Basin entropy: a new tool to analyze uncertainty in dynamical systems, Sci. Rep., 6, 31416, (2016).]' 
 
 # Setting up
 setup(
