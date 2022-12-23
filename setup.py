@@ -25,7 +25,7 @@ setup(
     keywords=['python', 'basins', 'entropy', 'fractals'],
     classifiers=[
         "Development Status :: 1 - Planning",
-        "Intended Audience :: Developers",
+        "Intended Audience :: Engineers, Physicists and Mathematicians",
         "Programming Language :: Python :: 3",
         "Operating System :: Unix",
         "Operating System :: MacOS :: MacOS X",
